@@ -37,3 +37,5 @@ if __name__ == "__main__":
     output_file = os.path.join(current_dir, "..", "dataset_preprocessing", "dataset_clean.csv")
 
     preprocess_data(raw_file, output_file)
+
+# Ini komentar untuk mengetest action 
