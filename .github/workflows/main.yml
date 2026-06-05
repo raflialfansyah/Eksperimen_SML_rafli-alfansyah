@@ -1,10 +1,15 @@
-name: Preprocessing Data Otomatis
+name: Automated Data Preprocessing
+
 on:
   push:
     paths:
       - 'dataset_raw/**'
       - 'preprocessing/automate_*.py'
   workflow_dispatch:
+
+permissions:
+  contents: write
+
 jobs:
   preprocess:
     runs-on: ubuntu-latest
